@@ -1,0 +1,28 @@
+.new-note {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+.new-note input {
+  width: 60%;
+  padding: 7px 9px;
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+  border: 1px solid rgb(178, 178, 178);
+}
+.new-note input:focus-visible {
+  outline: none;
+}
+.new-note button {
+  background: #007bfe;
+  color: white;
+  border: navajowhite;
+  padding: 8px 9px;
+  border-end-end-radius: 5px;
+  border-start-end-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.new-note button:hover {
+  background: #005dc0;
+}
